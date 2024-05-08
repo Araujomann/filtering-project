@@ -12,7 +12,7 @@ export const Nav = ({ handleChange, switchTheme }) => {
                     <input
                         type="text"
                         className="search-input"
-                        placeholder="  Search..."
+                        placeholder="Search..."
                         onChange={handleChange}
                     />
                     <FiSearch className="search-icon" />
