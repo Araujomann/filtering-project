@@ -1,0 +1,26 @@
+.recommended-flex {
+    display: flex;
+    margin-left: 20rem;
+}
+
+.recommended-title {
+    color: var(--text-color);
+    margin: 20px 0 20px 20rem;
+    font-family: sans-serif;
+}
+
+.btns {
+    color: var(--text-color);
+    max-width: max-content;
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: 0.6px solid var(--lines-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btns:hover {
+    color: #e8e8e8;
+    background: #8f8f8f;
+}
